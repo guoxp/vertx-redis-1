@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="adep-search-rules-base" default = "true"  eventProcessingMode = "stream" packages="adep_search_rules">
+        <ksession name="adep_search_session" type = "stateful" default = "true"/>
+    </kbase>
+</kmodule>

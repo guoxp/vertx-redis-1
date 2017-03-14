@@ -1,0 +1,19 @@
+{
+    "redis": 
+      {
+        "nbOfShards": 1,
+        "port": 6379,
+        "select": 3
+      },
+  "server": {
+    "port": 7665
+  },
+  "logger": {
+    "pattern": "./search-%g.log",
+    "count": 1
+  },
+  "audit": {
+    "pattern": "./search-audit-%g.log",
+    "count": 1
+  }
+}

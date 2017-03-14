@@ -1,0 +1,15 @@
+target
+.classpath
+.project
+.settings
+.DS_Store
+*.log
+*.rdb
+src/main/resources/vertx-user*
+
+org.eclipse.wst.jsdt.core.javascriptValidator.launch
+>>>>>>> develop
+search-log*
+adep-*log*
+search-*.log*
+pom.xml.versionsBackup
